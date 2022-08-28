@@ -1,0 +1,10 @@
+.idea
+.DS_Store
+/node_modules/
+*.exe
+*.bin
+*.jar
+*.war
+*.mp3
+*.mp4
+

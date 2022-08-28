@@ -1,0 +1,173 @@
+body,
+html {
+  background-color: #4f083b;
+  background-image: none;
+}
+
+section {
+  padding-top: 10em;
+  padding-left: 3em;
+  z-index: 0;
+}
+
+@media (max-width: 440px) {
+  section {
+    padding-left: 1em;
+  }
+}
+
+section h3 {
+  font-size: 120%;
+  margin-bottom: 0;
+  z-index: 0;
+}
+
+section p {
+  font-size: 120%;
+  margin: 0 0 2em 0;
+  z-index: 0;
+}
+
+section .gallery {
+  z-index: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[4];
+      grid-template-columns: repeat(4, auto);
+}
+
+@media (max-width: 1270px) {
+  section .gallery {
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+    margin-right: 2em;
+  }
+}
+
+@media (max-width: 908px) {
+  section .gallery {
+    -ms-grid-columns: (auto)[1];
+        grid-template-columns: repeat(1, auto);
+  }
+}
+
+@media (max-width: 440px) {
+  section .gallery {
+    margin-right: 1em;
+  }
+}
+
+section .gallery figure {
+  margin: 0.5em;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+  z-index: 0;
+}
+
+section .gallery figure img {
+  width: calc(100%);
+  opacity: .7;
+  -webkit-transform: translate3d(0, -2em, 0) scale(1.12);
+          transform: translate3d(0, -2em, 0) scale(1.12);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 0;
+}
+
+section .gallery figure figcaption {
+  position: absolute;
+  padding: 1em 2em;
+  top: 0;
+  color: white;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+section .gallery figure figcaption h3 {
+  font-weight: bold;
+  font-size: 120%;
+  text-transform: uppercase;
+  border-radius: 0.5em;
+  background: black;
+  display: inline-block;
+  padding: .5em .7em;
+  z-index: 0;
+}
+
+section .gallery figure figcaption .additional {
+  opacity: 0;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 0;
+}
+
+section .gallery figure figcaption .additional p {
+  margin-bottom: 1em;
+  z-index: 0;
+}
+
+section .gallery figure figcaption .additional a {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  font-size: 120%;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: bold;
+  z-index: 0;
+}
+
+section .gallery figure figcaption .additional a:hover {
+  background-color: #db7e89;
+  z-index: 0;
+}
+
+section .gallery figure:last-child {
+  margin-right: 3em;
+}
+
+@media (max-width: 1270px) {
+  section .gallery figure:last-child {
+    margin-right: 0.5em;
+  }
+}
+
+@media (max-width: 908px) {
+  section .gallery figure:last-child {
+    margin-bottom: 2em;
+  }
+}
+
+section .gallery figure:hover {
+  background: black;
+}
+
+section .gallery figure:hover img {
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+          transform: translate3d(0, 0, 0) scale(1);
+  opacity: .4;
+}
+
+section .gallery figure:hover .additional {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navi {
+  z-index: 4;
+}
+/*# sourceMappingURL=portfolio.css.map */

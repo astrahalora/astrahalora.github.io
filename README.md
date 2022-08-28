@@ -1,1 +1,3 @@
-# astrahalora.github.io
+## Copyright
+
+This site was created for Astrahalora.

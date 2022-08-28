@@ -1,0 +1,119 @@
+body,
+html {
+  background-color: #4f083b;
+  background-image: none;
+}
+
+#this {
+  margin-top: 3em;
+}
+
+.genInfo {
+  color: white;
+  text-align: center;
+  width: 70%;
+  padding-top: 8em;
+}
+
+@media (max-width: 1435px) {
+  .genInfo {
+    width: 90%;
+  }
+}
+
+.genInfo p {
+  font-size: 120%;
+  text-align: justify;
+}
+
+.order {
+  color: white;
+  text-align: center;
+  width: 70%;
+  margin-bottom: 3em;
+}
+
+@media (max-width: 1435px) {
+  .order {
+    width: 90%;
+  }
+}
+
+.order p {
+  font-size: 120%;
+  text-align: justify;
+}
+
+.comm {
+  color: white;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1435px) {
+  .comm {
+    width: 90%;
+  }
+}
+
+.comm div {
+  text-align: justify;
+  margin-bottom: 1em;
+}
+
+@media (max-width: 908px) {
+  .comm div {
+    text-align: left;
+  }
+}
+
+.comm h3 {
+  margin-bottom: 0.5em;
+}
+
+.comm p {
+  padding-right: 1em;
+  font-size: 120%;
+}
+
+.comm img {
+  width: 25em;
+}
+
+@media (max-width: 908px) {
+  .comm img {
+    width: 100%;
+  }
+}
+
+.comm ul li {
+  font-size: 120%;
+}
+
+footer {
+  width: 100%;
+}
+
+#bust2, #bust3, #halfBody2, #halfBody3, #fullBody2, #fullBody3 {
+  display: none;
+}
+
+#sample {
+  margin-top: 1em;
+  color: pink;
+}
+
+.clicka:hover {
+  color: pink;
+  cursor: url("/www-public/assets/images/astra_cursor2.svg"), auto;
+}
+
+.clicka2:hover {
+  color: #73ceda;
+  cursor: url("/www-public/assets/images/astra_cursor2.svg"), auto;
+}
+/*# sourceMappingURL=commissions.css.map */

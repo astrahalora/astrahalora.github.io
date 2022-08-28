@@ -1,0 +1,41 @@
+html, body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.policy {
+  padding: 2em 13em;
+}
+
+@media (max-width: 1435px) {
+  .policy {
+    padding: 2em 7em;
+  }
+}
+
+@media (max-width: 908px) {
+  .policy {
+    padding: 2em 4em;
+  }
+}
+
+@media (max-width: 440px) {
+  .policy {
+    padding: 1em;
+  }
+}
+
+.policy h1 {
+  text-align: center;
+}
+
+@media (max-width: 440px) {
+  .policy h1 {
+    font-size: 150%;
+  }
+}
+/*# sourceMappingURL=privacyPolicy.css.map */

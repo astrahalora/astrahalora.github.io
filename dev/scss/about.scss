@@ -1,0 +1,164 @@
+$colors: (
+    primary: #4f083b,
+    secondary: white,
+    tertiary: #ffdea1,
+    quadriplery: rgb(184, 115, 145)
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+}
+
+$laptop: 1435px;
+$mini: 1270px;
+$tablet: 908px;
+$phone: 440px;
+$microphone: 310px;
+
+@mixin laptop {
+    @media (max-width: #{$laptop}) {
+        @content;
+    }
+}
+
+@mixin mini {
+    @media (max-width: #{$mini}) {
+        @content
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$tablet}) {
+        @content
+    }
+}
+
+@mixin phone {
+    @media (max-width: #{$phone}) {
+        @content
+    }
+}
+
+@mixin microphone {
+    @media (max-width: #{$microphone}) {
+        @content
+    }
+}
+
+body,html {
+    background-color: color(primary);
+    background-image: none;
+}
+
+.about {
+    text-align: center;
+    color: color(secondary);
+    width: 60%;
+
+    @include laptop {
+        width: 80%;
+    }
+
+    @include phone {
+        width: 90%;
+    }
+
+    h3 {
+        text-align: left;
+        margin: 1em 0em;
+        font-size: 150%;
+    }
+
+    p {
+        text-align: justify;
+        font-size: 120%;
+        margin-bottom: 1em;
+
+        @include phone {
+            font-size: 110%;
+        }
+    }
+}
+
+#ana {
+    margin-top: 12em;
+    width: 10em;
+    border-radius: 100px;
+
+    @include mini {
+        width: 8em;
+    }
+
+    @include phone {
+        margin-top: 8em;
+    }
+}
+
+.techMain {
+    color: white;
+    background-color: black;
+    margin-top: 3em;
+    padding: 3em 0em;
+
+    h3 {
+        text-align: center;
+        font-size: 150%;
+        margin-bottom: 1em;
+    }
+
+    ul li {
+        font-size: 130%;
+    }
+}
+.tech {
+    width: 60%;
+    display: flex;
+
+    @include phone {
+        width: 90%;
+    }
+}
+
+.social {
+    width: 60%;
+    text-align: center;
+
+    @include laptop {
+        width: 80%;
+    }
+
+    h3 {
+        text-align: left;
+        font-size: 150%;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        color: color(secondary);
+    }
+
+    img {
+        width: 7em;
+        margin-right: 3em;
+
+        @include tablet {
+            width: 12%;
+        }
+
+        @include mini {
+            width: 10%;
+            margin-right: 1.5em;
+        }
+
+        @include phone {
+            width: 12%;
+            margin-right: 1em;
+        }
+
+        @include microphone {
+            width: 10%;
+        }
+    }
+}
+
+footer {
+    margin-top: 3em;
+}
