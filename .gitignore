@@ -1,6 +1,7 @@
 .idea
 .DS_Store
 /node_modules/
+.vscode
 *.exe
 *.bin
 *.jar
