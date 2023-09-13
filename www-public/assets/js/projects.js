@@ -2,7 +2,7 @@ const projectList = [
   {
     title: "DoBeDragon",
     imgUrl: "/www-public/assets/images/dobedrag.jpg",
-    preview: "dobedragon.html",
+    preview: "dobedragon",
     code: "https://github.com/astrahalora/DoBeDragon",
     date: "2020-01-20",
     highlighted: true,
