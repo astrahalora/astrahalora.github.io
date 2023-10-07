@@ -9,13 +9,13 @@ const projectList = [
     specs: ["HTML", "CSS", "SCSS"],
   },
   {
-    title: "Image Placeholder",
-    imgUrl: "/www-public/assets/images/placeholder2.jpg",
-    preview: "somepage",
-    code: "someurl",
-    date: "2022-06-20",
-    highlighted: false,
-    specs: ["Java", "Maven", "React", "CSS"],
+    title: "StressRelief XO",
+    imgUrl: "/www-public/assets/images/stress_relief.png",
+    preview: "stress_relief",
+    code: "https://github.com/astrahalora/StressRelief-XO",
+    date: "2023-10-7",
+    highlighted: true,
+    specs: ["HTML", "CSS", "SCSS", "Bootstrap"],
   },
   {
     title: "Image Placeholder",
@@ -23,8 +23,8 @@ const projectList = [
     preview: "somepage",
     code: "someurl",
     date: "2022-06-22",
-    highlighted: true,
-    specs: ["JavaScript", "Angular"],
+    highlighted: false,
+    specs: ["HTML", "CSS", "JavaScript", "Angular"],
   },
   {
     title: "Image Placeholder",
@@ -33,7 +33,7 @@ const projectList = [
     code: "someurl",
     date: "2021-06-20",
     highlighted: false,
-    specs: ["JavaScript", "Angular"],
+    specs: ["HTML","CSS", "JavaScript", "Angular"],
   },
 ];
 
