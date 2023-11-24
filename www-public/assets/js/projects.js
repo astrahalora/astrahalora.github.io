@@ -1,5 +1,14 @@
 const projectList = [
   {
+    title: "Cinemagic",
+    imgUrl: "/www-public/assets/images/cine.jpg",
+    preview: "https://github.com/astrahalora/movie-store",
+    code: "https://github.com/astrahalora/movie-store",
+    date: "2023-11-24",
+    highlighted: true,
+    specs: ["React", "SCSS", "MongoDB", "Node.js", "Express"],
+  },
+  {
     title: "DoBeDragon",
     imgUrl: "/www-public/assets/images/dobedrag.jpg",
     preview: "dobedragon",
@@ -16,25 +25,7 @@ const projectList = [
     date: "2023-10-7",
     highlighted: true,
     specs: ["HTML", "CSS", "SCSS", "Bootstrap"],
-  },
-  {
-    title: "Image Placeholder",
-    imgUrl: "/www-public/assets/images/placeholder2.jpg",
-    preview: "somepage",
-    code: "someurl",
-    date: "2022-06-22",
-    highlighted: false,
-    specs: ["HTML", "CSS", "JavaScript", "Angular"],
-  },
-  {
-    title: "Image Placeholder",
-    imgUrl: "/www-public/assets/images/placeholder2.jpg",
-    preview: "somepage",
-    code: "someurl",
-    date: "2021-06-20",
-    highlighted: false,
-    specs: ["HTML","CSS", "JavaScript", "Angular"],
-  },
+  }
 ];
 
 const projectsElement = document.querySelector(".projects");
