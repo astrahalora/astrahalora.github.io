@@ -14,7 +14,7 @@ const projectList = [
     preview: "dobedragon",
     code: "https://github.com/astrahalora/DoBeDragon",
     date: "2020-01-20",
-    highlighted: true,
+    highlighted: false,
     specs: ["HTML", "CSS", "SCSS"],
   },
   {
@@ -23,7 +23,7 @@ const projectList = [
     preview: "stress_relief",
     code: "https://github.com/astrahalora/StressRelief-XO",
     date: "2023-10-7",
-    highlighted: true,
+    highlighted: false,
     specs: ["HTML", "CSS", "SCSS", "Bootstrap"],
   }
 ];
