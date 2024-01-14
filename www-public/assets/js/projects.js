@@ -1,5 +1,14 @@
 const projectList = [
   {
+    title: "Growthgenier",
+    imgUrl: "/www-public/assets/images/growthgenier.jpg",
+    preview: "https://github.com/astrahalora/Growthgenier",
+    code: "https://github.com/astrahalora/Growthgenier",
+    date: "2024-01-14",
+    highlighted: true,
+    specs: ["React", "Bootstrap", "SCSS", "MongoDB", "Node.js", "Express"],
+  },
+  {
     title: "Cinemagic",
     imgUrl: "/www-public/assets/images/cine.jpg",
     preview: "https://github.com/astrahalora/movie-store",
