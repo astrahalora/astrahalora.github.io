@@ -18,6 +18,15 @@ const projectList = [
     specs: ["React", "SCSS", "MongoDB", "Node.js", "Express"],
   },
   {
+    title: "Timekeeper",
+    imgUrl: "/www-public/assets/images/timek.jpg",
+    preview: "timekeeper",
+    code: "https://github.com/astrahalora/Timekeeper",
+    date: "2024-01-25",
+    highlighted: false,
+    specs: ["HTML", "SCSS", "JavaScript"],
+  },
+  {
     title: "DoBeDragon",
     imgUrl: "/www-public/assets/images/dobedrag.jpg",
     preview: "dobedragon",

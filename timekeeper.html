@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timekeeper</title>
+    <link rel="icon" type="image/x-icon" href="./www-public/assets/images/timekeeper.ico">
+    <link rel="stylesheet" href="./www-public/assets/css/timekeeper.min.css">
+    <script type="module" src="./www-public/assets/js/timekeepert.js" defer></script>
+</head>
+
+<body>
+    <div id="logostamp">
+        <img src="./assets/img/timekeeper_logo.png" alt="Timekeeper Logo">
+    </div>
+    <div id="timerframe">
+        <div id="timerbox">
+            <div id="timerspace">
+                <svg height="340" width="340">
+                    <circle 
+                        r="160" 
+                        cx="170" 
+                        cy="170" 
+                        fill="none" 
+                        stroke="rgb(53, 97, 105)" 
+                        stroke-width="15" 
+                        transform="rotate(-90 170 170)"
+                    />
+                </svg>
+                <div id="timer">
+                    <label for="duration">Countdown Seconds:</label><br>
+                    <input type="text" name="duration" id="duration" value="60">
+                </div>
+                <div id="timercalls">
+                    <img src="./assets/img/start.png" alt="Start" id="start">
+                    <img src="./assets/img/pause.png" alt="Pause" id="pause">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
