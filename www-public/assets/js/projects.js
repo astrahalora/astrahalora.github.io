@@ -19,7 +19,7 @@ const projectList = [
   },
   {
     title: "Timekeeper",
-    imgUrl: "/www-public/assets/images/timek.jpg",
+    imgUrl: "/www-public/assets/images/timerk.jpg",
     preview: "timekeeper",
     code: "https://github.com/astrahalora/Timekeeper",
     date: "2024-01-25",
