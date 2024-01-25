@@ -1,4 +1,4 @@
-import { Timer } from 'timer.min.js';
+import { Timer } from './timer.min.js';
 
 // DOM elems
 const durationInput = document.querySelector("#duration");
