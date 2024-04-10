@@ -1,5 +1,14 @@
 const projectList = [
   {
+    title: "A La Tarantazza",
+    imgUrl: "/www-public/assets/images/tarantazza.jpg",
+    preview: "https://youtu.be/dqWILxE249U?si=s3JS__KXTkOrrF1I",
+    code: "https://github.com/astrahalora/a-la-tarantazza",
+    date: "2024-04-10",
+    highlighted: true,
+    specs: ["React", "CSS", "MongoDB", "Node.js", "Express"],
+  },
+  {
     title: "Growthgenier",
     imgUrl: "/www-public/assets/images/growthgenier.jpg",
     preview: "https://github.com/astrahalora/Growthgenier",
@@ -9,22 +18,22 @@ const projectList = [
     specs: ["React", "Bootstrap", "SCSS", "MongoDB", "Node.js", "Express"],
   },
   {
-    title: "Cinemagic",
-    imgUrl: "/www-public/assets/images/cine.jpg",
-    preview: "https://github.com/astrahalora/movie-store",
-    code: "https://github.com/astrahalora/movie-store",
-    date: "2023-11-24",
-    highlighted: true,
-    specs: ["React", "SCSS", "MongoDB", "Node.js", "Express"],
-  },
-  {
     title: "Timekeeper",
     imgUrl: "/www-public/assets/images/timerk.jpg",
     preview: "timekeeper",
     code: "https://github.com/astrahalora/Timekeeper",
     date: "2024-01-25",
-    highlighted: false,
+    highlighted: true,
     specs: ["HTML", "SCSS", "JavaScript"],
+  },
+  {
+    title: "Cinemagic",
+    imgUrl: "/www-public/assets/images/cine.jpg",
+    preview: "https://github.com/astrahalora/movie-store",
+    code: "https://github.com/astrahalora/movie-store",
+    date: "2023-11-24",
+    highlighted: false,
+    specs: ["React", "SCSS", "MongoDB", "Node.js", "Express"],
   },
   {
     title: "DoBeDragon",
