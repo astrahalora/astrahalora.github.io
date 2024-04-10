@@ -141,6 +141,7 @@ highlightedBtn.addEventListener("click", function () {
   filterHighlightedProjects();
   populateProjects(projectsToDisplay);
   changeImgSrcOnHover();
+  selectElement.value = "--Any Language/Other--";
 });
 
 selectElement.addEventListener("change", function () {
