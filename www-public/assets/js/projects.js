@@ -11,7 +11,7 @@ const projectList = [
   {
     title: "Growthgenier",
     imgUrl: "/www-public/assets/images/growthgenier.jpg",
-    preview: "https://github.com/astrahalora/Growthgenier",
+    preview: "https://youtu.be/nulTF8s-naw?si=v3pBKmlmKbsiXJDG",
     code: "https://github.com/astrahalora/Growthgenier",
     date: "2024-01-14",
     highlighted: true,
