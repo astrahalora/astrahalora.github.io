@@ -6,7 +6,7 @@ const projectList = [
     code: "https://github.com/astrahalora/a-la-tarantazza",
     date: "2024-04-10",
     highlighted: true,
-    specs: ["React", "CSS", "MongoDB", "Node.js", "Express"],
+    specs: ["React", "Javascript", "CSS", "MongoDB", "Node.js", "Express"],
   },
   {
     title: "Growthgenier",
@@ -15,7 +15,16 @@ const projectList = [
     code: "https://github.com/astrahalora/Growthgenier",
     date: "2024-01-14",
     highlighted: true,
-    specs: ["React", "Bootstrap", "SCSS", "MongoDB", "Node.js", "Express"],
+    specs: ["React", "Javascript", "Bootstrap", "SCSS", "MongoDB", "Node.js", "Express"],
+  },
+  {
+    title: "Planet Exploration",
+    imgUrl: "/www-public/assets/images/exploration.webp",
+    preview: "https://github.com/astrahalora/planet-exploration",
+    code: "https://github.com/astrahalora/planet-exploration",
+    date: "2024-06-16",
+    highlighted: false,
+    specs: ["React", "CSS", "SCSS", "Java", "Spring Boot", "Javascript", "Maven"],
   },
   {
     title: "Timekeeper",
@@ -33,7 +42,7 @@ const projectList = [
     code: "https://github.com/astrahalora/movie-store",
     date: "2023-11-24",
     highlighted: false,
-    specs: ["React", "SCSS", "MongoDB", "Node.js", "Express"],
+    specs: ["React", "Javascript", "SCSS", "MongoDB", "Node.js", "Express"],
   },
   {
     title: "DoBeDragon",
