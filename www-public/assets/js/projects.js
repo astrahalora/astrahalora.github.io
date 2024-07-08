@@ -33,7 +33,7 @@ const projectList = [
     code: "https://github.com/astrahalora/Timekeeper",
     date: "2024-01-25",
     highlighted: true,
-    specs: ["HTML", "SCSS", "JavaScript"],
+    specs: ["HTML", "SCSS", "Javascript"],
   },
   {
     title: "Cinemagic",
